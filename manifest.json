@@ -1,0 +1,12 @@
+{
+    "name": "JIRA - Force new tab",
+    "version": "1.0",
+    "description": "Force JIRA external links to open in a new tab",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://*.atlassian.net/*"],
+            "js": ["content-script.js"]
+        }
+    ]
+  }
