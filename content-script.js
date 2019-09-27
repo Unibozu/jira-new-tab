@@ -7,8 +7,6 @@ function onClick(ev) {
   if (a) {
     const href = a.href;
 
-    console.log('click on', href);
-
     if (isExternalHref(href)) {
       ev.preventDefault();
       window.open(href);
