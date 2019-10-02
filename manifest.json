@@ -5,8 +5,12 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": ["https://*.atlassian.net/*"],
-            "js": ["content-script.js"]
+            "matches": [
+                "https://*.atlassian.net/*"
+            ],
+            "js": [
+                "content-script.js"
+            ]
         }
     ]
-  }
+}
