@@ -18,5 +18,5 @@ function onClick(ev) {
  * Return `true` is the link is external and should be opened in a new tab
  */
 function isExternalHref(href) {
-  return !/\.atlassian\.(net|com)/g.test(href) && !/^mailto:/.test(href);
+  return '' != href && !/\.atlassian\.(net|com)/g.test(href) && !/^mailto:/.test(href);
 }
